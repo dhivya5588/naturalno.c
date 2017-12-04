@@ -6,8 +6,8 @@ int i,n,c=0;
 scanf("%d",&n);
 for(i=1;i<=n;i++)
 {
-i=i+c;
+c=i+c;
 }
-printf("%d",&i);
+printf("%d",&c);
 getch();
 }
